@@ -1,0 +1,65 @@
+/datos
+#/salidas
+/auxiliares/config.yml
+/auxiliares/service-account.json
+
+# Archivos y sesiones de R
+.RData
+.Rhistory
+.Rapp.history
+.Rproj.user/
+.Ruserdata
+*.Rout
+*.Rout.save
+*.RDataTmp
+*.Rtmp*
+*.rdb
+*.rdx
+*.Rproj
+
+# Datos guardados en R
+*.rds
+*.rda
+*.rdata
+
+# Archivos de salida
+*.log
+*.out
+*.aux
+*.pdf
+*.html
+*.tex
+*.zip
+*.tar.gz
+*.csv
+*.xlsx
+*.sav
+*.feather
+*.parquet
+
+# Carpetas temporales o de cache
+cache/
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+
+# Archivos de sistema
+.DS_Store          # macOS
+ehthumbs.db        # Windows
+Thumbs.db          # Windows
+desktop.ini        # Windows
+
+# Proyectos y editores
+.vscode/
+
+# Docker y contenedores
+*.img
+*.tar
+.env
+.env.*
+docker-compose.override.yml
+
+# Entornos virtuales Pythn
+.venv/
+env/
+venv/
